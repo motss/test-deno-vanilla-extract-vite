@@ -10,6 +10,14 @@ Intermittent build error (~53% of attempts) occurring in `rolldown@1.0.3`'s NAPI
 sh ./repro.sh
 ```
 
+## Note
+
+This error only reproduces when running with **Deno** as the runtime. The same project built with **Node.js v26.1.0** (pnpm) does not exhibit this issue — 0 failures across 5 consecutive builds with identical dependency versions.
+
+**Environment:**
+1. Deno 2.8.3 (aarch64-apple-darwin)
+2. macOS 26.5.1 (25F80)
+
 ## Stack trace
 
 ```
