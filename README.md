@@ -1,6 +1,6 @@
 # test-deno-vanilla-extract-vite
 
-# Reproducing `Error: Failed to recover \`TsconfigCache\` type from napi value`
+# Reproducing `Error: Failed to recover `TsconfigCache` type from napi value`
 
 Intermittent build error (~53% of attempts) occurring in `rolldown@1.0.3`'s NAPI binding.
 
