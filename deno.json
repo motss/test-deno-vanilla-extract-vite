@@ -1,0 +1,23 @@
+{
+  "tasks": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "imports": {
+    "@vanilla-extract/css": "npm:@vanilla-extract/css@1.20.1",
+    "@vanilla-extract/vite-plugin": "npm:@vanilla-extract/vite-plugin@5.2.2",
+    "@react-router/dev": "npm:@react-router/dev@7.17.0",
+    "@react-router/node": "npm:@react-router/node@7.17.0",
+    "@types/react": "npm:@types/react@19.2.17",
+    "@types/react-dom": "npm:@types/react-dom@19.2.3",
+    "isbot": "npm:isbot@5.1.42",
+    "typescript": "npm:typescript@5.8.3",
+    "react": "npm:react@19.2.7",
+    "react-dom": "npm:react-dom@19.2.7",
+    "react-dom/client": "npm:react-dom@19.2.7/client",
+    "react-router": "npm:react-router@7.17.0",
+    "vite": "npm:vite@8.0.16"
+  },
+  "nodeModulesDir": "auto"
+}

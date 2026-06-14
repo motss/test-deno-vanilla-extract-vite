@@ -1,0 +1,5 @@
+{
+  "name": "test-deno-vanilla-extract-vite",
+  "private": true,
+  "type": "module"
+}
